@@ -1,0 +1,43 @@
+/* page2emr.css */
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 50px; /* Adjust the gap between buttons */
+    max-width: 1200px; /* Adjust the max-width as needed */
+    margin: 0 auto; /* Center the button container */
+    margin-top: 30px;
+}
+
+.button {
+    width: 100%; /* Take 100% of the column width */
+    height: 200px;
+    font-size: 26px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    text-align: left;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.emergency-container {
+    grid-column: span 2;
+}
+
+.emergency-button {
+    width: 100%;
+    height: 200px;
+    font-size: 26px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    text-align: left;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: red;
+    color: white;
+}
