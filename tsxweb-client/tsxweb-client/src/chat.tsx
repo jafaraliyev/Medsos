@@ -5,7 +5,6 @@ import {User, generate_request, getUser} from "./models/User.components";
 import Timer from "./timer";
 import {BottomNavigation} from "@mui/material";
 
-const user: User = JSON.parse(localStorage.getItem("user")!);
 
 function urlbuilder(propt: string) {
     return "http://localhost:8080/chat?prompt=" + propt;
@@ -18,6 +17,8 @@ function delay(ms: number) {
     return new Promise( resolve => setTimeout(resolve, ms) );
 }
 export async function getResponse(prompt: string) {
+    const user: User = JSON.parse(localStorage.getItem("user")!);
+    debugger
     const text = generate_request(prompt, user);
 
     try {

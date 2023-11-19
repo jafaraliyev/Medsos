@@ -1,8 +1,6 @@
 import React from 'react';
 import './page2emr.css';
-import Timer from './timer';
 import {Route, Routes} from "react-router-dom";
-import {HomePage} from './Home'
 import LoginForm from './LoginForm'
 
 import AsthmaApp from "./Emergency/asthma";
@@ -14,7 +12,7 @@ import HeartApp from "./Emergency/heart";
 import SeizureApp from "./Emergency/seizure";
 import StrokeApp from "./Emergency/stroke";
 import MyApp from "./embutton";
-
+import ButtonContainer from "./Home";
 import RegisterForm from "./registerForm";
 import Chat from "./chat"
 

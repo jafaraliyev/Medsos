@@ -9,6 +9,7 @@ public class UserServiceImpl implements UserService{
     DataRepository dataRepository;
     @Override
     public User create(User user) {
+        System.out.println("lol");
         return dataRepository.save(user);
     }
 

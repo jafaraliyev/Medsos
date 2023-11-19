@@ -4,14 +4,14 @@ import Timer from './timer';
 import {Route, Routes} from "react-router-dom";
 import {ButtonContainer} from './Home'
 import LoginForm from './LoginForm'
-import SeizureApp from "./seizure";
-import HeartApp from "./heart";
-import StrokeApp from "./stroke";
-import ChokeApp from "./choke";
-import DiabetesApp from "./diabetes";
-import BleedingApp from "./bleeding";
-import AsthmaApp from "./asthma";
-import BrokenbonesApp from "./brokenbones";
+import SeizureApp from "./Emergency/seizure";
+import HeartApp from "./Emergency/heart";
+import StrokeApp from "./Emergency/stroke";
+import ChokeApp from "./Emergency/choke";
+import DiabetesApp from "./Emergency/diabetes";
+import BleedingApp from "./Emergency/bleeding";
+import AsthmaApp from "./Emergency/asthma";
+import BrokenbonesApp from "./Emergency/brokenbones";
 const buttonNames = [
     'Seizure',
     'Heart Attack',

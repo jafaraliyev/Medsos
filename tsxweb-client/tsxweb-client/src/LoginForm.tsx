@@ -10,7 +10,7 @@ const LoginForm: React.FC = () => {
     const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
         let response= await getUser(username, password);
-        debugger;
+
         if (response) {
             console.log("Sign in success", response);
             localStorage.setItem('user', JSON.stringify(response));
