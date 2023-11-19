@@ -1,0 +1,26 @@
+/* Timer.css */
+.timer-container {
+    grid-column: span 2;
+    background-color: darkred;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.timer-container h1 {
+    font-size: 50px;
+    color: red;
+}
+
+.timer-container button {
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 220px;
+    height: 40px;
+}
