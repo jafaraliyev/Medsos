@@ -64,7 +64,7 @@ const RegisterForm: React.FC = () => {
                     <label htmlFor={"email"}>email:</label>
                     <br/>
                     <input type={'text'} name={'email'} id={'eml'} onChange={handleChange} value={formData.email}
-                           required maxLength={20}/>
+                           required maxLength={30}/>
                     <br/>
                 </div>
                 <button>sign up</button>

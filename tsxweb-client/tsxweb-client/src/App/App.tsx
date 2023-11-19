@@ -5,6 +5,7 @@ import {Route, Routes} from "react-router-dom";
 import {HomePage} from '../Home'
 import LoginForm from '../Login/LoginForm'
 import RegisterForm from "../Registration/registerForm";
+import Chat from "../mainchat/chat"
 const buttonNames = [
     'Seizure',
     'Heart Attack',
@@ -31,6 +32,7 @@ export function App() {
             <Route path={'/reguest'} element={<LoginForm/>}/>
             <Route path={'/login'} element={<LoginForm/>}/>
             <Route path={'/register'} element={<RegisterForm/>}/>
+            <Route path={':username/main_chat'} element={<Chat/>}/>
         </Routes>
 
     );

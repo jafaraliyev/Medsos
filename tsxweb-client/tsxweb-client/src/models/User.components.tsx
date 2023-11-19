@@ -1,4 +1,5 @@
 import {record, get_record} from './record'
+import React from "react";
 export type User={
     username:string,
     id:number,
@@ -55,19 +56,17 @@ export async function getUser(username:string, password:string) {
         if (!response.ok) {
             throw new Error(`Error! status: ${response.status}`);
         }
-
         // 👇️ const result: GetUsersResponse
-        const result = (await response.json()) as User;
-
+        const result = await response.json() as User;
+        if(await result.password == '') throw new Error(`Error! status: ${response.status}`);
         console.log('result is: ', JSON.stringify(result, null, 4));
         return result;
     } catch (error) {
         if (error instanceof Error) {
             console.log('error message: ', error.message);
-            return error.message;
         } else {
             console.log('unexpected error: ', error);
-            return 'An unexpected error occurred';
+
         }
     }
 }

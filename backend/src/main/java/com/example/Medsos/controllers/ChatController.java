@@ -4,6 +4,7 @@ import com.example.Medsos.DTO.ChatRequest;
 import com.example.Medsos.DTO.ChatResponse;
 import org.springframework.beans.factory.annotation.Value;
 
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
@@ -14,6 +15,7 @@ import org.springframework.web.client.RestTemplate;
 import lombok.extern.slf4j.Slf4j;
 @RestController
 @Slf4j
+@CrossOrigin(origins = "*")
 public class ChatController {
 
      private static RestTemplate restTemplate = new RestTemplate();

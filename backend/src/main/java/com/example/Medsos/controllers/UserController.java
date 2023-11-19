@@ -23,7 +23,7 @@ public class UserController {
     @GetMapping("getuser")
     public User getUser(@RequestParam String username, @RequestParam String password){
         User user1 = userService.getUser(username, password);
-        if(user1==null)log.info("credentialls error");
+        if(user1==null || !password.equals(user1.getPassword())) return null;
         log.info("Sign in success");
         return user1;
     }

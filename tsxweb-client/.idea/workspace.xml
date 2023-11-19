@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aba280f4-2702-4fa2-a2b5-301dd983899d" name="Changes" comment="migration to tsx" />
+    <list default="true" id="aba280f4-2702-4fa2-a2b5-301dd983899d" name="Changes" comment="migration to tsx">
+      <change afterPath="$PROJECT_DIR$/tsxweb-client/src/mainchat/chat.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsxweb-client/src/mainchat/message.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/com/example/Medsos/controllers/ChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/main/java/com/example/Medsos/controllers/ChatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/com/example/Medsos/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/main/java/com/example/Medsos/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsxweb-client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsxweb-client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsxweb-client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsxweb-client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsxweb-client/src/App/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/tsxweb-client/src/App/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsxweb-client/src/Login/LoginForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/tsxweb-client/src/Login/LoginForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsxweb-client/src/Registration/registerForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/tsxweb-client/src/Registration/registerForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsxweb-client/src/models/User.components.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/tsxweb-client/src/models/User.components.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsxweb-client/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsxweb-client/tsconfig.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,10 +41,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Jafar's PC/Documents/GitHub/Medsos/tsxweb-client/tsxweb-client/src",
+    "last_opened_file_path": "C:/Users/Jafar's PC/Documents/GitHub/Medsos/tsxweb-client",
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Users\\Jafar's PC\\Documents\\GitHub\\Medsos\\tsxweb-client\\tsxweb-client\\node_modules\\typescript\\lib"
+    "ts.external.directory.path": "C:\\Users\\Jafar's PC\\Documents\\GitHub\\Medsos\\tsxweb-client\\node_modules\\typescript\\lib"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -58,7 +72,9 @@
       <updated>1700359055616</updated>
       <workItem from="1700359056806" duration="639000" />
       <workItem from="1700359700621" duration="287000" />
-      <workItem from="1700360001509" duration="9846000" />
+      <workItem from="1700360001509" duration="12142000" />
+      <workItem from="1700374578538" duration="3880000" />
+      <workItem from="1700378474176" duration="11711000" />
     </task>
     <task id="LOCAL-00001" summary="migration to tsx">
       <created>1700360147039</created>
