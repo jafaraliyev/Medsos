@@ -37,6 +37,11 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Jafar's PC\Documents\GitHub\Medsos\tsxweb-client\tsxweb-client\src" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jafar's PC\Documents\GitHub\Medsos\tsxweb-client\tsxweb-client\src\Timer" />
+      <recent name="C:\Users\Jafar's PC\Documents\GitHub\Medsos\tsxweb-client\tsxweb-client\src\App" />
+      <recent name="C:\Users\Jafar's PC\Documents\GitHub\Medsos\tsxweb-client\tsxweb-client\src\Login" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -53,7 +58,7 @@
       <updated>1700359055616</updated>
       <workItem from="1700359056806" duration="639000" />
       <workItem from="1700359700621" duration="287000" />
-      <workItem from="1700360001509" duration="4239000" />
+      <workItem from="1700360001509" duration="9846000" />
     </task>
     <task id="LOCAL-00001" summary="migration to tsx">
       <created>1700360147039</created>
