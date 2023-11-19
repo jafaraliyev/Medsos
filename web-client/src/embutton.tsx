@@ -1,11 +1,12 @@
 import './button.css';
-import Header from './header1';
+import Header from './header1.tsx';
 import React from 'react';
-import {useNavigate} from "react-router-dom";
+//import {useNavigate} from "react-router-dom";
 
 function EmButton() {
+    ////onClick={()=>useNavigate("")}
     return (
-        <button className='btn' onClick={()=>useNavigate("")}>
+        <button className='btn' >
             Emergency
         </button>
     );

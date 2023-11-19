@@ -13,7 +13,7 @@ const buttonNames = [
   'Broken Stuff',
 ];
 
-function ButtonContainer() {
+export function ButtonContainer() {
   const buttons = buttonNames.map((name, index) => (
       <button key={index} className="button">
         {name}
@@ -34,3 +34,4 @@ function ButtonContainer() {
 }
 
 export default ButtonContainer;
+
