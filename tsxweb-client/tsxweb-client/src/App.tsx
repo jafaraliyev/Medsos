@@ -1,11 +1,11 @@
 import React from 'react';
 import './page2emr.css';
-import Timer from '../Timer/timer';
+import Timer from './timer';
 import {Route, Routes} from "react-router-dom";
-import {HomePage} from '../Home'
-import LoginForm from '../Login/LoginForm'
-import RegisterForm from "../Registration/registerForm";
-import Chat from "../mainchat/chat"
+import {HomePage} from './Home'
+import LoginForm from './LoginForm'
+import RegisterForm from "./registerForm";
+import Chat from "./chat"
 const buttonNames = [
     'Seizure',
     'Heart Attack',

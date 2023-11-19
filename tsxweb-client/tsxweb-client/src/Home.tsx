@@ -1,4 +1,4 @@
-import Timer from "./Timer/timer";
+import Timer from "./timer";
 import React from "react";
 import {useNavigate} from "react-router-dom";
 

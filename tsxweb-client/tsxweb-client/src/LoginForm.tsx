@@ -1,5 +1,5 @@
 import React from 'react';
-import {getUser, User} from '../models/User.components'
+import {getUser, User} from './models/User.components'
 import {useNavigate} from "react-router-dom";
 
 

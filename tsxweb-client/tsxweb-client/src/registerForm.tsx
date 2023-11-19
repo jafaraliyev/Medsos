@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import {registerUser, User} from "../models/User.components"
+import {registerUser, User} from "./models/User.components"
 
 type SignUpFormState = {
     username: string;

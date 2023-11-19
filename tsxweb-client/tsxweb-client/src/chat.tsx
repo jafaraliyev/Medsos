@@ -1,8 +1,8 @@
 import React, {useState} from "react";
 import axios from 'axios';
 import BasicCard, {Message} from './message'
-import {User, generate_request, getUser} from "../models/User.components";
-import Timer from "../Timer/timer";
+import {User, generate_request, getUser} from "./models/User.components";
+import Timer from "./timer";
 import {BottomNavigation} from "@mui/material";
 
 const user: User = JSON.parse(localStorage.getItem("user")!);
