@@ -19,8 +19,8 @@ public class UserController {
     {log.debug("Creating user");
         userService.create(user);
     }
-    @GetMapping("response")
-    public User response(@RequestParam String username, @RequestParam String password){
+    @GetMapping("getuser")
+    public User getUser(@RequestParam String username, @RequestParam String password){
         User user1 = userService.getUser(username, password);
         if(user1==null)log.debug("credentialls error");
         log.debug("Sign in success");

@@ -1,37 +1,38 @@
 import React from 'react';
 import './page2emr.css';
 import Timer from './timer';
-
+import {Route, Routes} from "react-router-dom";
+import {ButtonContainer} from './Home'
+import LoginForm from './LoginForm'
 const buttonNames = [
-  'Seizure',
-  'Heart Attack',
-  'Stroke',
-  'Choke',
-  'Sugar',
-  'Blood',
-  'Asthma',
-  'Broken Stuff',
+    'Seizure',
+    'Heart Attack',
+    'Stroke',
+    'Choke',
+    'Sugar',
+    'Blood',
+    'Asthma',
+    'Broken Stuff',
 ];
 
-export function ButtonContainer() {
-  const buttons = buttonNames.map((name, index) => (
-      <button key={index} className="button">
-        {name}
-      </button>
-  ));
+function HandleClick() {
 
-  return (
-
-      <div className="button-container">
-        {buttons}
-        <div className="emergency-container">
-          <button className="emergency-button">Call 911</button>
-        </div>
-        <Timer/>
-      </div>
-
-  );
 }
 
-export default ButtonContainer;
+export function App() {
+
+    return (
+
+        <Routes>
+            <Route path={'/'} element={<ButtonContainer/>}/>
+            <Route path={'/login'} element={<LoginForm/>}/>
+            <Route path={'/emergency'} element={<LoginForm/>}/>
+            <Route path={'/reguest'} element={<LoginForm/>}/>
+            <Route path={'/login'} element={<LoginForm/>}/>
+        </Routes>
+
+    );
+}
+
+export default App;
 

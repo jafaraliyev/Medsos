@@ -1,50 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aba280f4-2702-4fa2-a2b5-301dd983899d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsxweb-client/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsxweb-client/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsxweb-client/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsxweb-client/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsxweb-client/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsxweb-client/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsxweb-client/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsxweb-client/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsxweb-client/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsxweb-client/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsxweb-client/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsxweb-client/src/App.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsxweb-client/src/App.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsxweb-client/src/button.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsxweb-client/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsxweb-client/src/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsxweb-client/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsxweb-client/src/page2emr.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsxweb-client/src/react-app-env.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsxweb-client/src/reportWebVitals.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsxweb-client/src/timer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsxweb-client/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../web-client/src/Models/User.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../web-client/src/embutton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../web-client/src/header1.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../web-client/src/page2emrg.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../web-client/src/setupTests.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../web-client/src/timer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web-client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../web-client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web-client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../web-client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web-client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../web-client/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web-client/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../web-client/src/App.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web-client/src/embutton.js" beforeDir="false" afterPath="$PROJECT_DIR$/tsxweb-client/src/embutton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web-client/src/header1.js" beforeDir="false" afterPath="$PROJECT_DIR$/tsxweb-client/src/header1.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web-client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../web-client/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web-client/src/page2emrg.js" beforeDir="false" afterPath="$PROJECT_DIR$/tsxweb-client/src/page2emrg.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web-client/src/reportWebVitals.js" beforeDir="false" afterPath="$PROJECT_DIR$/../web-client/src/reportWebVitals.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web-client/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/tsxweb-client/src/setupTests.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web-client/src/timer.js" beforeDir="false" afterPath="$PROJECT_DIR$/tsxweb-client/src/timer.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="aba280f4-2702-4fa2-a2b5-301dd983899d" name="Changes" comment="migration to tsx" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +30,7 @@
     "last_opened_file_path": "C:/Users/Jafar's PC/Documents/GitHub/Medsos/tsxweb-client/tsxweb-client/src",
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Users\\Jafar's PC\\Documents\\GitHub\\Medsos\\tsxweb-client\\node_modules\\typescript\\lib"
+    "ts.external.directory.path": "C:\\Users\\Jafar's PC\\Documents\\GitHub\\Medsos\\tsxweb-client\\tsxweb-client\\node_modules\\typescript\\lib"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -96,7 +53,16 @@
       <updated>1700359055616</updated>
       <workItem from="1700359056806" duration="639000" />
       <workItem from="1700359700621" duration="287000" />
+      <workItem from="1700360001509" duration="4239000" />
     </task>
+    <task id="LOCAL-00001" summary="migration to tsx">
+      <created>1700360147039</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700360147039</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,5 +81,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="migration to tsx" />
+    <option name="LAST_COMMIT_MESSAGE" value="migration to tsx" />
   </component>
 </project>
