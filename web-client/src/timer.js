@@ -1,6 +1,6 @@
 // Timer.js
 import React, { useState, useEffect } from 'react';
-import './timer.css'; // Create a separate CSS file for Timer styling
+import './timer.css';
 
 const Timer = () => {
     const initialTime = 180; // 3 minutes in seconds
