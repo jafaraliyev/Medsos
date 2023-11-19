@@ -1,15 +1,21 @@
 import React from 'react';
-import {getUser} from './models/User.components'
+import {getUser, User} from './models/User.components'
+import {useNavigate} from "react-router-dom";
+
 
 const LoginForm: React.FC = () => {
     const [username, setUsername] = React.useState('');
     const [password, setPassword] = React.useState('');
-
-    const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+    const navigate = useNavigate();
+    const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
-        let response = getUser(username, password);
-        if (response != null) {
-            console.log("Sign in success");
+        let response= await getUser(username, password);
+        debugger;
+        if (response) {
+            console.log("Sign in success", response);
+            localStorage.setItem('user', JSON.stringify(response));
+            const url = "/"+username+"/main_chat"
+            navigate(url);
             return response;
         }
         console.log("credentials problem");

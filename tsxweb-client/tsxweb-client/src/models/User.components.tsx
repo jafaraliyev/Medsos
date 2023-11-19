@@ -1,27 +1,27 @@
 import {record, get_record} from './record'
-type User={
+import React from "react";
+export type User={
     username:string,
     id:number,
     email:string,
-    record1:record
+    record:string,
+    password:string
 };
 export function generate_request(prompt:string, user:User){
-    return get_record(user.record1) + prompt;
+    return user.record + prompt;
 }
-type GetUsersResponse = {
-    data: User[];
-};
-
-export async function getUser(username:string, password:string) {
+function loginurlbuilder(username:string, password:string){
+    return "http://localhost:8080/getuser?username="+username+"&password="+password
+}
+export async function registerUser(user:User) {
     try {
         // 👇️ const response: Response
-        const response = await fetch('http://localhost:8080/getuser', {
-            method: 'GET',
+        const response = await fetch("http://localhost:8080/create", {
+            method: 'POST',
             headers: {
-                username:username,
-                password:password,
-                Accept: 'application/json',
+                "Content-Type": "application/json",
             },
+            body:JSON.stringify(user)
         });
 
         if (!response.ok) {
@@ -32,7 +32,6 @@ export async function getUser(username:string, password:string) {
         const result = (await response.json()) as User;
 
         console.log('result is: ', JSON.stringify(result, null, 4));
-
         return result;
     } catch (error) {
         if (error instanceof Error) {
@@ -41,6 +40,33 @@ export async function getUser(username:string, password:string) {
         } else {
             console.log('unexpected error: ', error);
             return 'An unexpected error occurred';
+        }
+    }
+}
+export async function getUser(username:string, password:string) {
+    try {
+        // 👇️ const response: Response
+        const response = await fetch(loginurlbuilder(username, password), {
+            method: 'GET',
+            headers: {
+                Accept: 'application/json',
+            },
+        });
+
+        if (!response.ok) {
+            throw new Error(`Error! status: ${response.status}`);
+        }
+        // 👇️ const result: GetUsersResponse
+        const result = await response.json() as User;
+        if(await result.password == '') throw new Error(`Error! status: ${response.status}`);
+        console.log('result is: ', JSON.stringify(result, null, 4));
+        return result;
+    } catch (error) {
+        if (error instanceof Error) {
+            console.log('error message: ', error.message);
+        } else {
+            console.log('unexpected error: ', error);
+
         }
     }
 }

@@ -1,6 +1,8 @@
 import Timer from "./timer";
 import React from "react";
+
 import { useNavigate } from "react-router-dom";
+
 
 const buttonNames = [
     'Seizure',
@@ -12,6 +14,7 @@ const buttonNames = [
     'Asthma',
     'Broken Bones',
 ];
+
 
 const buttonImages = [
     'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTkGvOEnYdpethXYTWm3aq_D7_vr17G0VH9HfWCJFmvSGg1f5wS',
@@ -45,6 +48,8 @@ export function ButtonContainer() {
             {name}
         </button>
     ));
+    const navigation = useNavigate();
+
 
     return (
         <div className="button-container">
@@ -53,8 +58,11 @@ export function ButtonContainer() {
                 <button className="emergency-button">Et </button>
             </div>
             <Timer />
+
         </div>
     );
 }
 
+
 export default ButtonContainer;
+

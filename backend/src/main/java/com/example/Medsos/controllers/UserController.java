@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Map;
 @Slf4j
 @RestController
+@CrossOrigin(origins = "*")
 public class UserController {
     @Autowired
     UserService userService;
@@ -22,8 +23,8 @@ public class UserController {
     @GetMapping("getuser")
     public User getUser(@RequestParam String username, @RequestParam String password){
         User user1 = userService.getUser(username, password);
-        if(user1==null)log.debug("credentialls error");
-        log.debug("Sign in success");
+        if(user1==null || !password.equals(user1.getPassword())) return null;
+        log.info("Sign in success");
         return user1;
     }
     @PostMapping("updateRecord")
